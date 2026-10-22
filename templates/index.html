@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2ec">
+  <meta name="description" content="Una experiencia privada de coctelería de autor en Sevilla. Aprende, crea y brinda en pareja o con tu grupo de hasta seis personas.">
+  <title>Cocktail Experience Privada | Rubén Ruiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="Cocktail Experience Privada, inicio">
+      <span class="wordmark-mark">rr<span>.</span></span>
+      <span class="wordmark-name">RUBÉN RUIZ <small>COCKTAIL EXPERIENCE</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <a href="#experiencia">La experiencia</a>
+      <a href="#formatos">Formatos</a>
+      <a href="#galeria">Galería</a>
+      <a class="nav-cta" href="#reserva">Reservar <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> SEVILLA · EXPERIENCIAS PRIVADAS</p>
+        <h1>COCKTAIL<br>EXPERIENCE<br><em>PRIVADA</em></h1>
+        <p class="hero-subtitle">Coctelería íntima, creativa y de autor para parejas y grupos reducidos.</p>
+        <p class="hero-mantra">Aprende. Crea. Brinda.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#reserva">Reservar experiencia <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#formatos">Ver formatos <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-note">Una mesa. Buenas historias. Cócteles hechos por ti.</p>
+      </div>
+      <div class="hero-image image-frame">
+        <img src="https://images.unsplash.com/photo-1485872299829-c673f5194813?auto=format&fit=crop&w=1500&q=85" alt="Amigos sonríen y comparten cócteles en un ambiente distendido" fetchpriority="high">
+        <div class="image-caption"><span>01 / 04</span><span>EL ARTE DE MEZCLAR</span></div>
+        <div class="hero-stamp" aria-hidden="true">HECHO<br><span>PARA</span><br>COMPARTIR</div>
+      </div>
+      <a class="scroll-cue" href="#experiencia"><span></span> DESLIZA PARA DESCUBRIR</a>
+    </section>
+
+    <section class="intro section-pad" id="experiencia">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ALGO MÁS QUE UN CÓCTEL</p>
+        <h2>El placer de<br><em>hacerlo juntos.</em></h2>
+      </div>
+      <div class="intro-content reveal">
+        <p class="intro-lead">No vienes solo a beber. Vienes a descubrir qué ocurre cuando mezclas curiosidad, buenos ingredientes y un poco de creatividad.</p>
+        <p>En esta experiencia privada aprenderás técnicas básicas de coctelería, trabajarás con utensilios profesionales y prepararás dos cócteles por persona, siempre a tu ritmo y con acompañamiento cercano.</p>
+        <p>Una propuesta de coctelería creativa y de autor, con sabores inspirados en la cultura latina, pensada para disfrutar sin prisas en pareja o con un grupo reducido.</p>
+      </div>
+      <div class="pillars">
+        <article class="pillar reveal"><span>01</span><h3>Aprender</h3><p>Técnicas sencillas que te llevarás a casa.</p></article>
+        <article class="pillar reveal"><span>02</span><h3>Crear</h3><p>Combina sabores y encuentra tu propio equilibrio.</p></article>
+        <article class="pillar reveal"><span>03</span><h3>Compartir</h3><p>Un momento especial, hecho para disfrutar juntos.</p></article>
+      </div>
+    </section>
+
+    <section class="journey section-pad">
+      <div class="journey-top reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> SIN PRISAS, PASO A PASO</p>
+          <h2>Así se vive<br><em>la experiencia.</em></h2>
+        </div>
+        <p class="journey-aside">Un encuentro cercano y participativo, diseñado alrededor de las personas que se sientan a la mesa.</p>
+      </div>
+      <div class="steps">
+        <article class="step reveal"><span class="step-number">01</span><div><h3>Bienvenida</h3><p>Presentamos los ingredientes, las herramientas y los sabores que darán forma a la sesión.</p></div><span class="step-icon" aria-hidden="true">✳</span></article>
+        <article class="step reveal"><span class="step-number">02</span><div><h3>Aprende las técnicas</h3><p>Medir, mezclar, agitar, equilibrar sabores y cuidar la presentación: lo esencial, explicado de forma sencilla.</p></div><span class="step-icon" aria-hidden="true">↗</span></article>
+        <article class="step reveal"><span class="step-number">03</span><div><h3>Manos a la coctelera</h3><p>Cada participante prepara sus cócteles con acompañamiento personalizado y utensilios profesionales.</p></div><span class="step-icon" aria-hidden="true">✳</span></article>
+        <article class="step reveal"><span class="step-number">04</span><div><h3>Degustación y brindis</h3><p>Disfrutamos las creaciones en un ambiente relajado. El mejor momento para brindar por lo que acabáis de crear.</p></div><span class="step-icon" aria-hidden="true">↗</span></article>
+      </div>
+    </section>
+
+    <section class="formats section-pad" id="formatos">
+      <!-- Edit the names, descriptions and prices below to update each experience. -->
+      <div class="formats-heading reveal">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> ENCUENTRA TU MOMENTO</p><h2>Un formato<br><em>para cada plan.</em></h2></div>
+        <p>Siempre en petit comité. Siempre con atención personal.</p>
+      </div>
+      <div class="format-grid">
+        <article class="format-card reveal">
+          <p class="format-kicker">01 · PARA DOS</p><h3>Cocktail Experience<br>para Dos</h3>
+          <div class="format-meta"><span>2 personas</span><span>90 minutos</span></div>
+          <p class="price">119 <small>€</small></p>
+          <p class="format-includes">Una sesión privada para compartir, aprender y brindar en pareja.</p>
+          <ul><li>Preparación guiada de 2 cócteles por persona</li><li>Ingredientes y utensilios básicos</li><li>Degustación y consejos personalizados</li></ul>
+          <a href="#reserva" class="card-link" data-format="dos">Elegir experiencia <span>↗</span></a>
+        </article>
+        <article class="format-card format-card-featured reveal">
+          <p class="format-kicker">02 · PARA COMPARTIR <span class="featured-tag">FAVORITO</span></p><h3>Cocktail Experience<br>Friends</h3>
+          <div class="format-meta"><span>Hasta 6 personas</span><span>2 horas</span></div>
+          <p class="price">189 <small>€</small></p>
+          <p class="format-includes">Un taller privado para que el grupo se convierta en el equipo detrás de la barra.</p>
+          <ul><li>Preparación guiada de 2 cócteles por persona</li><li>Ingredientes y material básico</li><li>Dinámica participativa para el grupo</li></ul>
+          <a href="#reserva" class="card-link" data-format="friends">Elegir experiencia <span>↗</span></a>
+        </article>
+        <article class="format-card reveal">
+          <p class="format-kicker">03 · A MEDIDA</p><h3>Experiencia<br>de Autor</h3>
+          <div class="format-meta"><span>2 a 6 personas</span><span>2 a 2,5 horas</span></div>
+          <p class="price price-consult">A consultar</p>
+          <p class="format-includes">Una propuesta conceptual creada alrededor de vuestros gustos y ocasión. La experiencia se centra en la coctelería; si queréis acompañamiento gastronómico, podéis aportarlo vosotros.</p>
+          <ul><li>Menú conceptual personalizado</li><li>Recorrido sensorial a través de la coctelería de autor</li><li>Opción sin alcohol o mixta</li></ul>
+          <a href="#reserva" class="card-link" data-format="autor">Hablemos de tu idea <span>↗</span></a>
+        </article>
+      </div>
+      <p class="format-footnote">Precios por experiencia. Cuéntame dónde será y afinamos los detalles juntos.</p>
+    </section>
+
+    <section class="extras section-pad">
+      <div class="extras-title reveal"><p class="eyebrow"><span class="eyebrow-line"></span> HAZLA TUYA</p><h2>Pequeños detalles.<br><em>Gran recuerdo.</em></h2></div>
+      <div class="extras-content reveal">
+        <p>Podemos adaptar la sesión a lo que tienes en mente. Cuéntame la ocasión y buscamos juntos la mejor manera de celebrarla.</p>
+        <div class="extras-list"><span>Cócteles adicionales</span><span>Menú personalizado</span><span>Versión sin alcohol</span><span>Ocasión especial</span><span>Desplazamiento fuera de la zona base</span><span>Detalles de regalo</span></div>
+        <a class="text-link" href="#reserva">Cuéntame tu idea <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="galeria">
+      <div class="gallery-heading reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span> DETALLES QUE SE SABOREAN</p><h2>Un brindis<br><em>por lo que viene.</em></h2></div><p>Sabores vivos, manos en movimiento y tiempo para disfrutarlo.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-tall reveal">
+          <img src="https://images.unsplash.com/photo-1745433921724-e10866434c9e?auto=format&fit=crop&w=900&q=85" alt="Pareja sonriente brindando con copas en un ambiente íntimo" loading="lazy"><figcaption>01 — Un brindis en pareja</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-wide reveal">
+          <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80" alt="Cóctel artesanal con ingredientes frescos" loading="lazy"><figcaption>02 — Ingredientes con carácter</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-small reveal">
+          <img src="https://images.unsplash.com/photo-1676472018107-d924653cdd67?fm=jpg&q=60&w=1200&auto=format&fit=crop" alt="Barman preparando un cóctel con coctelera y utensilios de barra" loading="lazy"><figcaption>03 — Manos a la coctelera</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-small reveal">
+          <img src="https://images.unsplash.com/photo-1681641088246-b3e60e203ad1?auto=format&fit=crop&w=1200&q=85" alt="Grupo de amigas sonríe mientras comparte bebidas alrededor de la mesa" loading="lazy"><figcaption>04 — Risas alrededor de la mesa</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="booking section-pad" id="reserva">
+      <div class="booking-intro reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> EL SIGUIENTE PASO</p>
+        <h2>¿Brindamos<br><em>por algo?</em></h2>
+        <p>Cuéntame qué tienes en mente. Revisaré la fecha y te escribiré personalmente para preparar una experiencia a vuestra medida.</p>
+        <div class="booking-contact"><span>¿Prefieres hablar directamente?</span>
+          {% if whatsapp_number %}
+          <a href="https://wa.me/{{ whatsapp_number }}" target="_blank" rel="noopener noreferrer">Escríbeme por WhatsApp ↗</a>
+          {% else %}
+          <a href="#contacto">WhatsApp · añade tu número en app.py</a>
+          {% endif %}
+        </div>
+      </div>
+      <form class="booking-form reveal" id="booking-form">
+        <div class="form-grid">
+          <label>Nombre completo <span>*</span><input type="text" name="nombre" placeholder="¿Cómo te llamas?" autocomplete="name" maxlength="100" required></label>
+          <label>WhatsApp <span>*</span><input type="tel" name="whatsapp" placeholder="+34 600 000 000" autocomplete="tel" maxlength="30" required></label>
+          <label>Email <span>*</span><input type="email" name="email" placeholder="tu@email.com" autocomplete="email" maxlength="254" required></label>
+          <label>Fecha deseada <span>*</span><input type="date" name="fecha" required></label>
+          <label>Localidad <span>*</span><input type="text" name="localidad" placeholder="¿Dónde será?" maxlength="100" required></label>
+          <label>Número de personas <span>*</span><select name="personas" required><option value="" selected disabled>Selecciona</option><option value="2">2 personas</option><option value="3">3 personas</option><option value="4">4 personas</option><option value="5">5 personas</option><option value="6">6 personas</option></select></label>
+          <label>Formato elegido <span>*</span><select name="formato" id="formato-select" required><option value="" selected disabled>Selecciona un formato</option><option value="dos">Cocktail Experience para Dos</option><option value="friends">Cocktail Experience Friends</option><option value="autor">Experiencia de Autor</option><option value="no-se">Aún no lo sé</option></select></label>
+          <label>¿Qué cócteles te gustan? <span>*</span><select name="preferencias" required><option value="" selected disabled>Selecciona una opción</option><option value="Clásicos">Clásicos</option><option value="Frutales y frescos">Frutales y frescos</option><option value="Cítricos y herbales">Cítricos y herbales</option><option value="Me gustan las sorpresas">Me gustan las sorpresas</option><option value="Sin alcohol o mixtos">Sin alcohol o mixtos</option></select></label>
+        </div>
+        <label class="message-label">Mensaje adicional <textarea name="mensaje" rows="3" maxlength="2000" placeholder="Ocasión, sabores favoritos, dudas..."></textarea></label>
+        <div class="form-trap" aria-hidden="true"><label>Deja este campo vacío<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="form-submit"><button class="button button-dark" type="submit">Enviar solicitud <span aria-hidden="true">↗</span></button><p>Sin compromiso · Te responderé personalmente</p></div>
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="closing-quote">
+      <p class="eyebrow">UNA EXPERIENCIA PARA RECORDAR</p>
+      <p class="quote">“Lo mejor de un cóctel<br>es <em>con quién lo compartes.</em>”</p>
+      <span>RUBÉN RUIZ · BARTENDER</span>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <!-- WhatsApp y email toman los valores configurados en app.py o en variables de entorno. -->
+    <div class="footer-main">
+      <a class="wordmark footer-wordmark" href="#inicio"><span class="wordmark-mark">rr<span>.</span></span><span class="wordmark-name">RUBÉN RUIZ <small>BARTENDER · COCKTAIL EXPERIENCE PRIVADA</small></span></a>
+      <p>Experiencias íntimas de coctelería de autor.<br>Sevilla y alrededores.</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/love_cocteleria/" target="_blank" rel="noopener noreferrer">Instagram @love_cocteleria ↗</a>
+        {% if whatsapp_number %}<a href="https://wa.me/{{ whatsapp_number }}" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>{% else %}<span>WhatsApp · añade tu número en app.py</span>{% endif %}
+        <a href="mailto:{{ contact_email }}">{{ contact_email }}</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Rubén Ruiz</span><span>HECHO CON CUIDADO EN SEVILLA</span><a href="#inicio">VOLVER ARRIBA ↑</a></div>
+  </footer>
+</body>
+</html>
